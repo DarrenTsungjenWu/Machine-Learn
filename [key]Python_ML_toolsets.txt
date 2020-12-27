@@ -1,0 +1,60 @@
+### Data Preprocessing
+
+StandardScaler:
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+
+Various sorts of data preprocessing:
+https://scikit-learn.org/stable/modules/preprocessing.html
+
+###Validation and Metrics
+
+Clip: Cross Validation Session:
+https://morvanzhou.github.io/tutorials/machine-learning/sklearn/3-2-cross-validation1/
+
+The list of model evaluation metrics (can be used in argument of cross_val_score)
+https://scikit-learn.org/0.15/modules/model_evaluation.html
+
+Cross Validation Performance Measurement
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html
+
+Cross Validation Performance Measurement 2: More common to use
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_validate.html
+
+[Advanced] Grid Search CV: To tune more than one parameter at the same time.
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+[Real case] https://martychen920.blogspot.com/2017/09/ml-gridsearchcv.html
+[Real case on XGB] https://stackoverflow.com/questions/34469038/understanding-python-xgboost-cv
+
+
+[Advanced] Classification Report:
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
+
+[XGBoost Parameter] https://blog.csdn.net/wzmsltw/article/details/50994481
+[Tree-based modelparameter and tuning，無痕開啟] https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db
+
+###Feature Selection
+https://scikit-learn.org/stable/modules/feature_selection.html
+
+Demonstration over sklearn feature selection:
+https://towardsdatascience.com/feature-selection-using-python-for-classification-problem-b5f00a1c7028
+
+###Model
+
+XGBoost Introduction
+https://www.itread01.com/articles/1476146171.html
+[調參邏輯] https://zhuanlan.zhihu.com/p/34000803
+
+
+Support Vector Regression:
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
+
+
+Prophet:
+[Official Documnetation] https://facebook.github.io/prophet/docs/multiplicative_seasonality.html
+[parameters] https://www.analyticsvidhya.com/blog/2018/05/generate-accurate-forecasts-facebook-prophet-python-r/
+[parameters] https://towardsdatascience.com/implementing-facebook-prophet-efficiently-c241305405a3
+[Tunning model] https://towardsdatascience.com/time-series-prediction-using-prophet-in-python-35d65f626236
+[Add regressor] https://towardsdatascience.com/forecast-model-tuning-with-additional-regressors-in-prophet-ffcbf1777dda
+[Github cases] https://github.com/raffg/prophet_forecasting/blob/master/prophet.ipynb
+[Real case] https://towardsdatascience.com/forecasting-in-python-with-facebook-prophet-29810eb57e66
+
